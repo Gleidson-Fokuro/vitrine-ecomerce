@@ -1,0 +1,17 @@
+.cart-products {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media screen and (min-width: 800px) {
+  .cart-products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cart-products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

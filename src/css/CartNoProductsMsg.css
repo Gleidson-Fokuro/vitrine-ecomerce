@@ -1,0 +1,24 @@
+.cart-no-products {
+  width: 100%;
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-no-products h3 {
+  font-size: 1.5rem;
+  color: var(--primary);
+  text-align: center;
+}
+
+.cart-no-products a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.cart-no-products a:hover {
+  text-decoration: underline;
+}
